@@ -20,5 +20,10 @@ namespace WPF_Jenkins_GIT
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello Morning , Mingalarpar !!! \n" + txt_name.Text);
+        }
     }
 }
