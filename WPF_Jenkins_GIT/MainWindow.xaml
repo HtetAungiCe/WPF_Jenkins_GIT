@@ -6,7 +6,25 @@
         xmlns:local="clr-namespace:WPF_Jenkins_GIT"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <StackPanel Margin="50" Orientation="Vertical" VerticalAlignment="Center">
 
-    </Grid>
+        <StackPanel Orientation="Horizontal" >
+            <Label Content="Name"  FontSize="50px"/>
+            <TextBox x:Name="txt_name"
+                  IsEnabled="True"
+                     Margin="30 10 10 10"
+                  Width="500px"
+                  FontSize="50px"
+                  HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <Button Margin="20"
+                Content="Greeting "
+                FontSize="40px"
+                Width="200"             
+                Height="80" Click="Button_Click"/>
+
+
+
+    </StackPanel>
 </Window>
