@@ -24,7 +24,7 @@ namespace WPF_Jenkins_GIT
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Hello Morning , Mingalarpar !!! \n" + txt_name.Text);//add hah commet
-           // MessageBox.Show("Hello Good Night , Mingalarpar !!! \n" + txt_name.Text);//add hah commet
+            MessageBox.Show("Hello Good Night , Mingalarpar !!! \n" + txt_name.Text);//add hah commet
         }
     }
 }
